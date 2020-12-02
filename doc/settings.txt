@@ -12,45 +12,37 @@ list set list
 -bot -user
 +bot newleaf
 
-# From http://stats.efnet.org with hubs removed
 :servers
-#US
-irc.choopa.net
-irc.colosolutions.net
-irc.mzima.net
-irc.servercentral.net
-#EU
-efnet.port80.se
-efnet.portlane.se
-irc.du.se
-irc.efnet.fr
-irc.homelien.no
-irc.inet.tele.dk
-irc.underworld.no
-irc.nordunet.se
+irc.shells.net
+irc.charactermedia.com
+irc.blockexplorer.com
+irc.namebase.io
+irc.lfa.com
+irc.voat.co
+irc.merryjane.com
+irc.imperialfamily.com
+irc.urkel.com
+irc.bitcoin.com
+irc.bcoin.io
 
 :servers6
-efnet.ipv6.port80.se
-efnet.portlane.se
-irc.choopa.net
-irc.inet.tele.dk
-irc.ipv6.homelien.no
-irc.underworld.no
-irc.nordunet.se
+irc.nope.int
 
 :servers_ssl
-irc.choopa.net:9999
-irc.servercentral.net:9999
-irc.underworld.no
-irc.nordunet.se
-efnet.port80.se
+irc.shells.net
+irc.charactermedia.com
+irc.blockexplorer.com
+irc.namebase.io
+irc.lfa.com
+irc.voat.co
+irc.merryjane.com
+irc.imperialfamily.com
+irc.urkel.com
+irc.bitcoin.com
+irc.bcoin.io
 
 :servers6_ssl
-irc.choopa.net:9999
-irc.underworld.no
-irc.ipv6.homelien.no
-efnet.ipv6.port80.se
-irc.nordunet.se
+irc.nope.int
 
 :rbl
 dnsbl.proxybl.org
@@ -58,6 +50,5 @@ rbl.efnetrbl.org
 tor.efnet.org
 dnsbl.swiftbl.org
 xbl.spamhaus.org
-rbl.efnetpro.com
 
 :end
