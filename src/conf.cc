@@ -698,7 +698,7 @@ readconf(const char *fname, int bits)
     }
   }                             /* while(fgets()) */
 
-  if (bots > 5)
+  if (bots > 20)
     werr(ERR_TOOMANYBOTS);
 
   delete stream;
