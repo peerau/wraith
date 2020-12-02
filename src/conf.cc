@@ -358,7 +358,7 @@ static char* datafile(const char* prefix, const char* nick) {
 
   tmpnick = tmp_ptr = strdup(nick);
   strtolower(tmpnick);
-  simple_snprintf(buf, sizeof buf, STR("%s/.%s.%s"), conf.datadir, prefix, tmpnick);
+  simple_snprintf(buf, sizeof buf, STR("%s/%s.%s"), conf.datadir, prefix, tmpnick);
   free(tmp_ptr);
   return buf;
 }
